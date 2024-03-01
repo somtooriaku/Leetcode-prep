@@ -1,0 +1,10 @@
+
+
+types of messages that components send to each other:
+commands: a command is a point to point message sent when a service requires an action to be 
+carried out by a different service. Instruction to do something. "Issuer" sends command "Processor"
+Commands must be processed exactly once. Commands can be declined. Issued also requires a response
+about the comfirmation or decline of the command 
+example:  
+events: 
+queries: 
